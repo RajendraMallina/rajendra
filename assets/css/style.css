@@ -15,41 +15,45 @@
 }
 .skill-tag {
   display: inline-block;
-  padding: 5px 10px;
-  margin: 10px 0px 0px 5px;
+  padding: 8px 19px;
+  margin: 20px 0px 0px 5px;
   font-size: 20px;
   background-color: #3498db;
   color: white;
   border-radius: 20px;
+
 }
 
 .skill-line {
   display: table;
-  padding: 5px 10px;
-  margin: 10px auto 0px auto;
+  padding: 10px 15px;
+  /* margin: 10px auto 0px auto; */
   font-size: 20px;
   background-color: #3498db;
   color: white;
   border-radius: 20px;
+  margin: 12px auto;
 }
 
 .skill-head {
   display: inline;
-  padding: 5px 10px;
-  margin: 25px 0px 0px 5px;
+  padding: 10px 12px;
   font-size: 25px;
-  background-color: #676c66;
+  background-color: #ca1e5aed;
   color: white;
   border-radius: 5px;
 }
 .experiance-head{
 
-  padding: 10px 10px;
+  padding: 20px 30px 10px 50px;
   margin: 10px auto 0px auto;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #3498db;
   color: white;
   border-radius: 20px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+
 }
 
 .award-list{
@@ -64,7 +68,7 @@
 
 .education-list{
   display: table;
-  padding: 10px 10px;
+  padding: 10px 19px;
   margin: 0px auto 30px auto;
   font-size: 30px;
   background-color: #fcfcfc;
@@ -211,7 +215,12 @@ a:hover {
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-
+/*--/ Details nect to the title /--*/
+.details{
+  text-shadow: 5px 1px 2px white, 0 0 1em #dbdbf4, 0 0 0.2em #6969f4;
+  color: black;
+  font: 18px Georgia, serif;
+}
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
@@ -317,6 +326,7 @@ a:hover {
 
 .list-ico {
   line-height: 2;
+  font-weight: 600;
 }
 
 .list-ico span {
@@ -909,6 +919,10 @@ a:hover {
 
 .lead{
   text-align: justify;
+  font-size: 19px;
+  font-weight: 400;
+  word-spacing: 2px;
+  letter-spacing: 0.2px;
 }
 
 .skill-mf span {
@@ -1096,7 +1110,7 @@ a:hover {
 
 .project-head{
   display: table;
-  padding: 10px 10px;
+  padding: 15px 20px;
   margin: 10px auto 10px auto;
   font-size: 20px;
   background-color: #1f8dfb;
